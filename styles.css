@@ -203,7 +203,7 @@ p {
   margin: 0px;
 }
 
-@media (max-width: 667px) {
+@media (max-width: 1000px) {
 	header {
 		background: rgb(251, 235, 216);
 		padding: 5px;		
