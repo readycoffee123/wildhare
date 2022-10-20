@@ -9,7 +9,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 </head>
 
 <!-- I learned the basic head, body, footer section from the following video https://www.youtube.com/watch?v=dMK_3lH1YPo&list=LL&index=1 -->
@@ -17,9 +17,9 @@
 
 <body>
 	<header> 
-		<div id="cs1300-gallery"></div>
+		
 		<section class = "logo">
-			<a href="wild-hare-bistro.html">
+			<a href="index.html">
 				<img src="./assets_project2/redesigned_logo_transparent.png" alt="Logo">
 			</a>
 			
@@ -29,7 +29,7 @@
 		<nav>
 			<ul> 
 				<!-- <li><a href = "../index.html"> Back to Portfolio</a></li> -->
-				<li><a href = "wild-hare-bistro.html"> Home</a></li>
+				<li><a href = "index.html"> Home</a></li>
 				<li><a href = ""> Menu </a></li>		
 				<li><a href = ""> About </a></li>	
 				<li><a href = ""> Arts </a></li>	
@@ -45,34 +45,40 @@
 
 		
 		<section class ="food">
-			<div>
-			<h1 class = "food">FOOD</h1>
-			<p class="italic-food">Food we serve at the Wild Hare Bistro Café is fresh, delicious,
-				with a wide variety of options including breakfast until 11 AM and 
-				tasty options spanning from sandwiches to salads for lunch. </p>
-			<h3 class = "food">Today’s Special : Dijon Turkey Wrap</h3>
-			<p class ="food"> Flour Tortilla, mixed Greens, smoked Turkey, Swiss, Red Onion, Tomato, Craisins, Sunflower Seeds, Dijon Caesar Dressing.  Served with Potato Chips. </p>
-			<h3 class = "food">Soup of the Day : Tomato Bisque</h3>
-			<p class="food">Smooth, warming, creamy tomato soup with heavy 
-				cream. Served with freshly baked sourdough bread.</p>
+
+			<div class="food_div">
+				<h1 >FOOD</h1>
+				<p class="italic-food">Food we serve at the Wild Hare Bistro Café is fresh, delicious,
+					with a wide variety of options including breakfast until 11 AM and 
+					tasty options spanning from sandwiches to salads for lunch. </p>
+				<h3 >Today’s Special : Dijon Turkey Wrap</h3>
+				<p > Flour Tortilla, mixed Greens, smoked Turkey, Swiss, Red Onion, Tomato, Craisins, Sunflower Seeds, Dijon Caesar Dressing.  Served with Potato Chips. </p>
+				<h3 >Soup of the Day : Tomato Bisque</h3>
+				<p >Smooth, warming, creamy tomato soup with heavy cream. Served with freshly baked sourdough bread.</p>
+
 			</div>
-			<div>
+				
+			<!-- <div class="div_flex"> -->
+			<!-- <div> -->
 				<!-- the following image is taken from https://unsplash.com/photos/-YHSwy6uqvk -->
-				<img class = "food_img" src="./assets_project2/food.jpg">
-			</div>
+			<img  src="./assets_project2/food.jpg">
+			<!-- </div> -->
 		</section>
 
 		
 
 		<section class ="food">
-			<div>
-				<img class = "food_img" src="./assets_project2/who_we_are.jpeg">
+			<!-- <div class="div_flex"> -->
+			<img class = "food_img" src="./assets_project2/who_we_are.jpeg">
+			<!-- </div> -->
+			<!-- <div class="div_flex"> -->
+			<div class = "about_div">
+				<h1>WHO WE ARE</h1>
+				<p> It happened virtually overnight. One of those opportunities that presents itself and cannot be denied,  as if the forces of the universe came together to ignite a spark, which has been blazing like a wild fire ever since!  We owe this adventure in part to our friend Carolyn, who saw in us a potential for her business that none of us could have imagined at the time.  And so, in what seemed like the blink of an eye, we began to transform her quaint Coffee shop into our buzzing Bistro.  And what a wild ride it’s been!
+					Mostly we believe in you, for inspiring us to excel in our endeavor, and assisting us in the important business of preserving Bemidji’s unique, local flavor.  If you haven’t already, we invite you to join us, and hope that your palate will be inspired to return often.  </p>
 			</div>
-			<div>
-			<h1 class ="food">WHO WE ARE</h1>
-			<p class ="food"> It happened virtually overnight. One of those opportunities that presents itself and cannot be denied,  as if the forces of the universe came together to ignite a spark, which has been blazing like a wild fire ever since!  We owe this adventure in part to our friend Carolyn, who saw in us a potential for her business that none of us could have imagined at the time.  And so, in what seemed like the blink of an eye, we began to transform her quaint Coffee shop into our buzzing Bistro.  And what a wild ride it’s been!
-				Mostly we believe in you, for inspiring us to excel in our endeavor, and assisting us in the important business of preserving Bemidji’s unique, local flavor.  If you haven’t already, we invite you to join us, and hope that your palate will be inspired to return often.  </p>
-			</div>
+			<!-- </div> -->
+
 		</section>
 
 		<section class = "contact">
