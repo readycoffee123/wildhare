@@ -203,7 +203,7 @@ p {
   margin: 0px;
 }
 
-@media only screen and (max-width: 667px) {
+@media (max-width: 667px) {
 	header {
 		background: rgb(251, 235, 216);
 		padding: 5px;		
