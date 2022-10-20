@@ -249,4 +249,10 @@ p {
 	.food img {
 		width: 100%;
 	}
+
+	.about {
+		flex-direction: column-reverse;
+	}
+
+
 }
