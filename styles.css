@@ -1,0 +1,204 @@
+
+/* below is stuff for PROJECT 2 */
+
+header {
+	background: rgb(251, 235, 216);
+	padding: 20px;
+	
+}
+
+section {
+	background: rgb(251, 235, 216);
+	color: grey;
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	
+}
+
+
+footer {
+	background: rgb(251, 235, 216);
+	padding: 20px;
+	color: grey;
+	font-family: 'Bodoni Moda', serif;
+	font-size: small;
+}
+
+
+div {
+	margin: auto;
+	width: 600px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Bodoni Moda', serif;
+	font-size: large;
+}
+a:hover {
+    color: grey;
+}
+
+li {
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 10px;
+}
+
+ul {
+	/* following gets rid of the bullet points! */
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Bodoni Moda', serif;
+	font-size: x-large;
+}
+
+h1 {
+  color: black;
+  font-size: x-large;
+  font-family: 'Bodoni Moda', serif;
+  text-align: center;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h2 {
+  color: black;
+  font-size: x-large;
+  font-family: 'Bodoni Moda', serif;
+  text-align: left;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h3 {
+  color: black;
+  font-size: large;
+  font-family: 'Bodoni Moda', serif;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-left: 50px;
+  padding-right: 50px;  
+}
+
+p {
+	color: black;
+	font-family: 'Bodoni Moda', serif;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.cover img{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  width: 1500px;  
+  height: 400px;
+  object-fit: cover; 
+}
+
+.food {
+  background: rgb(251, 235, 216);
+  color: grey;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  text-align: left;
+
+}
+
+.food p {
+  font-size: medium;
+  padding: 0px;
+  /* color: black; */
+  /* text-align: center; */
+}
+.italic-food {
+	color: black;
+	font-style: oblique;
+	text-align: left;
+	padding: 0px;
+}
+
+.food h1 {
+  text-align: left;
+  color: black;
+  padding: 0px;
+  font-weight: 600;
+
+}
+
+.food h3 {
+  text-align: left;
+  font-size: large;
+  color: black;
+  padding: 0px;
+  font-weight: 600;
+
+}
+
+.food_img {
+  width: auto;
+  height: 400px;
+  object-fit: cover;
+  padding: 0px;
+  padding-top: 20px;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logo img {
+  width: auto;
+  height: 150px;
+}
+
+.social-media {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.social-media img {
+  max-width: 50px; 
+  height: auto;
+}
+
+.contact {
+  color: black;
+  display: block; /* Makes a vertical list */
+  padding: 12px; 
+  text-align: center;  
+}
+
+.contact h1 {
+	text-align: center;
+}
+
+.contact p {
+  font-size: medium;
+  text-align: center;
+  padding:0px;
+  margin: 0px;
+}
