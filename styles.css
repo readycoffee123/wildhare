@@ -202,3 +202,206 @@ p {
   padding:0px;
   margin: 0px;
 }
+
+@media only screen and (max-width: 667px) {
+	header {
+		background: rgb(251, 235, 216);
+		padding: 5px;		
+	}
+	
+	section {
+		background: rgb(251, 235, 216);
+		color: grey;
+		display: flex;
+		flex-direction: row;
+		padding: 2px;
+	}
+	
+	footer {
+		background: rgb(251, 235, 216);
+		padding: 5px;
+		color: grey;
+		font-family: 'Bodoni Moda', serif;
+		font-size: small;
+	}
+	
+	
+	div {
+		margin: auto;
+		width: 90%;
+	}
+	
+	a {
+		text-decoration: none;
+		color: black;
+		font-family: 'Bodoni Moda', serif;
+		font-size: large;
+	}
+	a:hover {
+		color: grey;
+	}
+	
+	li {
+		display: inline-block;
+		padding-right: 2px;
+		padding-left: 2px;
+		margin: 2px;
+	}
+	
+	ul {
+		/* following gets rid of the bullet points! */
+		list-style-type: none; 
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		font-family: 'Bodoni Moda', serif;
+		font-size: x-large;
+	}
+	
+	h1 {
+	  color: black;
+	  font-size: x-large;
+	  font-family: 'Bodoni Moda', serif;
+	  text-align: center;
+	  padding-bottom: 1px;
+	  margin-bottom: 1px;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	}
+	
+	h2 {
+	  color: black;
+	  font-size: x-large;
+	  font-family: 'Bodoni Moda', serif;
+	  text-align: left;
+	  padding-bottom: 1px;
+	  margin-bottom: 1px;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	}
+	
+	h3 {
+	  color: black;
+	  font-size: large;
+	  font-family: 'Bodoni Moda', serif;
+	  text-align: center;
+	  padding-bottom: 0px;
+	  margin-bottom: 0px;
+	  padding-left: 10px;
+	  padding-right: 10px;  
+	}
+	
+	p {
+		color: black;
+		font-family: 'Bodoni Moda', serif;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	.cover img{
+	  display: flex;
+	  flex-wrap: wrap;
+	  align-content: center;
+	  justify-content: space-around;
+	  width: 100%;  
+	  height: 80%;
+	  object-fit: cover; 
+	}
+	
+	.food {
+	  background: rgb(251, 235, 216);
+	  color: grey;
+	  display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	  padding: 1px;
+	  text-align: left;
+	
+	}
+	
+	.food p {
+	  font-size: medium;
+	  padding: 0px;
+	  /* color: black; */
+	  /* text-align: center; */
+	}
+	.italic-food {
+		color: black;
+		font-style: oblique;
+		text-align: left;
+		padding: 0px;
+	}
+	
+	.food h1 {
+	  text-align: left;
+	  color: black;
+	  padding: 0px;
+	  font-weight: 600;
+	
+	}
+	
+	.food h3 {
+	  text-align: left;
+	  font-size: large;
+	  color: black;
+	  padding: 0px;
+	  font-weight: 600;
+	
+	}
+	
+	.food_img {
+	  height: auto;
+	  width: 100%;
+	  object-fit: cover;
+	  padding: 0px;
+	  padding-top: 2px;
+	}
+	
+	.logo {
+	  display: flex;
+	  flex-wrap: wrap;
+	  align-content: center;
+	  flex-direction: row;
+	  justify-content: space-around;
+	}
+	
+	.logo img {
+	  width: auto;
+	  height: 100px;
+	}
+	
+	.social-media {
+	  display: flex;
+	  flex-wrap: wrap;
+	  align-content: center;
+	  flex-direction: row;
+	  justify-content: space-around;
+	  padding-left: 25%;
+	  padding-right: 25%;
+	}
+	
+	.social-media img {
+	  max-width: 50px; 
+	  height: auto;
+	}
+	
+	.contact {
+	  color: black;
+	  display: block; /* Makes a vertical list */
+	  padding: 12px; 
+	  text-align: center;  
+	}
+	
+	.contact h1 {
+		text-align: center;
+	}
+	
+	.contact p {
+	  font-size: medium;
+	  text-align: center;
+	  padding:0px;
+	  margin: 0px;
+	}
+
+  }
+
