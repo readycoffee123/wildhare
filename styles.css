@@ -145,12 +145,7 @@ p {
   /* color: black; */
   /* text-align: center; */
 }
-.italic-food {
-	color: black;
-	font-style: oblique;
-	text-align: left;
-	padding: 0px;
-}
+
 
 .food h1 {
   text-align: left;
@@ -188,11 +183,20 @@ p {
 
 .about_div {
 	padding-left: 5%;
+	
+}
+.about_div p {
+	color: gray;
 }
 
 .food_div {
 	padding-right: 5%;
 }
+
+.food_div p {
+	color: gray;
+}
+
 
 .logo {
   display: flex;
